@@ -25,8 +25,10 @@ function Nav() {
     <a href="/">
       <span role="img" aria-label="camera"> 📸</span> Oh Snap!
     </a>
+    
   </h2>
   <nav>
+  
     <ul className="flex-row">
       <li className="mx-2">
         <a href="#about">
@@ -47,6 +49,9 @@ function Nav() {
   </li>
 ))}
     </ul>
+    <a data-testid="link" href="/"></a>
+  <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+    
   </nav>
 </header>
 );
